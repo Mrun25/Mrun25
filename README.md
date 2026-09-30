@@ -1,167 +1,131 @@
-<h1 align="center">Hey, I'm Mrunmayee 👋</h1>
-
 <p align="center">
-  <strong>AI Engineer · LLM Fine-tuning · Agentic Systems · Full-Stack Deployment</strong>
+  <img src="./assets/profile-cover.svg" alt="Mrunmayee Daware profile cover" width="100%" />
 </p>
 
 <p align="center">
-  <a href="mailto:mrunmayeesdaware25@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/mrunmayee-daware-b270362a0"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/Mrun25"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/Mrun25"><img src="https://img.shields.io/badge/github-Mrun25-0d1117?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/mrunmayee-daware-b270362a0/"><img src="https://img.shields.io/badge/linkedin-Mrunmayee_Daware-0d1117?style=flat-square&logo=linkedin&logoColor=8B5CF6" /></a>
+  <a href="mailto:mrunmayeesdaware25@gmail.com"><img src="https://img.shields.io/badge/email-mrunmayeesdaware25%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=22D3EE" /></a>
+</p>
+
+I like building AI systems where the model gets to reason, but the surrounding system still knows when to verify, constrain, or correct it.
+Most of my work sits around fine-tuning, NLP safety, agentic workflows, retrieval, and production ML systems — the part where a model stops being an isolated experiment and becomes something that has to handle data, failure modes, APIs, deployment, and real users.
+What I build
+- Model adaptation & fine-tuning — LoRA/PEFT, TRL, quantization, data normalization, train/validation pipelines, and model evaluation.
+- NLP safety & model supervision — crisis classification, deterministic pre-filters, critic/refine loops, and systems where an LLM is not allowed to be the only safety boundary.
+- Agentic systems — retrieval, memory, self-correction, multi-provider orchestration, and tool-driven workflows.
+- Production ML products — APIs, databases, Docker, AWS, schedulers, OAuth, automated tests, and CI/CD around ML systems.
+Flagship work
+<p align="center">
+  <a href="https://github.com/Mrun25/Hearth_Emotional-Companion"><img width="48%" src="./assets/card-hearth.svg" alt="Hearth — emotionally intelligent AI companion" /></a>
+  <a href="https://github.com/Mrun25/WatchTower"><img width="48%" src="./assets/card-watchtower.svg" alt="WatchTower — passive AI agent supervision" /></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Pune%2C%20India-📍-informational?style=flat"/>
-  <img src="https://img.shields.io/badge/Open%20to%20Remote-🌍-success?style=flat"/>
-  <img src="https://img.shields.io/badge/CGPA-9.71%20%2F%2010-blueviolet?style=flat"/>
+  <a href="https://github.com/Mrun25/GiSTo"><img width="48%" src="./assets/card-gisto.svg" alt="GiSTo — GST ITC risk intelligence" /></a>
+  <a href="https://github.com/Mrun25/Niche-Inbox"><img width="48%" src="./assets/card-niche-inbox.svg" alt="Niche Inbox — personalized news digest automation" /></a>
 </p>
 
----
+The engineering behind them
+- Hearth explores model behavior and safety as an engineering problem: a draft → critic → refine loop, an independent DistilBERT crisis classifier, a deterministic keyword safety layer, and a configurable fine-tuning pipeline using LoRA/PEFT, TRL, and quantization.
+- WatchTower supervises AI coding agents without letting the LLM become the source of truth. The codebase relationship map is built mechanically, while Mistral is used only as an advisory reasoning layer for prompt refinement, explanation, and context-aware chat.
+- GiSTo is a GST ITC risk-intelligence platform built around clean system boundaries: FastAPI + PostgreSQL/Alembic, a React CA dashboard, supplier filing-history risk scoring, a swappable GSP adapter, Telegram integration, and Docker Compose.
+- Niche Inbox is an end-to-end automation pipeline: NewsAPI ingestion → Mistral summarization → per-recipient APScheduler jobs → Gmail OAuth2 delivery, deployed for continuous operation on AWS EC2.
+Selected collaborative work
+- MNEME — sovereign memory infrastructure for AI agents. I worked on the frontend & compliance UI, GDPR flows, Memory Market, and protocol/infrastructure pieces. The project won Monad Blitz Pune V2.
+- fumii — physical AI companion with local memory and provenance intelligence. My work focused on AI/LLM integration, prompt engineering, personality/emotion behavior, and desktop/emotion logic.
+- Lumi — accessibility-focused voice guidance system. I worked on the voice & inference pipeline, including ASR/TTS, language detection, and interaction flow.
+- EPFO Validator — hackathon prototype developed jointly with Hassan Rehman, focused on validation workflows and product execution.
+Applied ML & data work
+- Fraud & Anomaly Detection — deterministic fraud rules + Isolation Forest + XGBoost + SHAP explainability, composite risk scoring, and Power BI/HTML dashboards.
+- Customer Churn Analysis using R — logistic regression, churn segmentation, and business-oriented interpretation.
+- Marketing Funnel & A/B Testing — funnel analysis, statistical experimentation, SQL views, and Power BI reporting.
+- Agentic Study Planner — memory-driven multi-agent planning with adaptive replanning and Google Calendar synchronization.
+Selected recognition
+<table align="center">
+  <tr>
+    <td align="center" width="185">
+      <sub><b>Monad Blitz Pune V2</b></sub><br>
+      <sub>MNEME</sub><br>
+      <sub><b>WINNER</b></sub>
+    </td>
+    <td align="center" width="185">
+      <sub><b>iQOO Pune City Battle</b></sub><br>
+      <sub>Lumi</sub><br>
+      <sub><b>TOP 22 FINALIST</b></sub>
+    </td>
+    <td align="center" width="185">
+      <sub><b>I-HACK · IIT Bombay</b></sub><br>
+      <sub>2025</sub><br>
+      <sub><b>SELECTED / FINALIST</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="185">
+      <sub><b>IEEE Tech for Good</b></sub><br>
+      <sub>2026</sub><br>
+      <sub><b>HACKATHON</b></sub>
+    </td>
+    <td align="center" width="185">
+      <sub><b>Google Solution Challenge</b></sub><br>
+      <sub>2025</sub><br>
+      <sub><b>PARTICIPANT</b></sub>
+    </td>
+    <td align="center" width="185">
+      <sub><b>Bluestock Fintech</b></sub><br>
+      <sub>Feb 2026 – Apr 2026</sub><br>
+      <sub><b>SDE INTERN</b></sub>
+    </td>
+  </tr>
+</table>
 
-## 🧠 About Me
+The stack I reach for
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,ts,react,nodejs,fastapi,flask,postgres,docker,aws,git,github&perline=12" alt="core stack" />
+</p>
 
-B.E. AI student at Zeal College of Engineering & Research, Pune (SPPU) · Final Year · **9.71 CGPA**
+<p align="center">
+  <code>LoRA / PEFT</code> ·
+  <code>TRL</code> ·
+  <code>BitsAndBytes</code> ·
+  <code>DistilBERT</code> ·
+  <code>Hugging Face</code> ·
+  <code>RAG</code> ·
+  <code>agentic self-correction</code> ·
+  <code>Mistral</code> ·
+  <code>scikit-learn</code> ·
+  <code>SHAP</code> ·
+  <code>OAuth2</code> ·
+  <code>CI/CD</code>
+</p>
 
-Built **5 independent AI systems shipped to production** — debugged under live conditions, not notebooks.  
-Full pipeline ownership: **model training → FastAPI → Docker → AWS EC2**.
+Experience & education
+<table>
+  <tr>
+    <td width="50%">
+      <b>Bluestock Fintech</b><br>
+      <sub>SDE Intern · Feb 2026 – Apr 2026 · Remote</sub><br><br>
+      <sub>Worked on a production-ready corporate blog platform spanning authentication, CMS, SEO/SSG/ISR, database design, and CI/CD.</sub>
+    </td>
+    <td width="50%">
+      <b>B.E. Artificial Intelligence</b><br>
+      <sub>Zeal College of Engineering & Research · SPPU</sub><br><br>
+      <sub>CGPA: <b>9.71 / 10</b></sub>
+    </td>
+  </tr>
+</table>
 
-🏆 **Monad Blitz Pune 2026 — Overall Winner** (Mneme: sovereign AI agent memory layer)  
-🏛 **I-HACK 2025 — IIT Bombay** · **IEEE Tech for Good 2026**
+<details>
+<summary><b>Certifications & programs</b></summary>
+<br>
 
----
+- Google Responsible AI Certification
+- Google Gen AI Study Jam
+- Microsoft Data Analytics 101
+- Deloitte Virtual Internship Program (2025)
+</details>
 
-## 🛠️ Technical Skills
-
-### 🤖 LLM / GenAI
-![LLM Fine-tuning](https://img.shields.io/badge/LLM%20Fine--tuning%20(LoRA%2FPEFT)-FF6F00?style=flat-square)
-![TRL SFTTrainer](https://img.shields.io/badge/TRL%20SFTTrainer-FF6F00?style=flat-square)
-![BitsAndBytes](https://img.shields.io/badge/BitsAndBytes%20Quant-FF6F00?style=flat-square)
-![RAG Pipelines](https://img.shields.io/badge/RAG%20Pipelines-FF6F00?style=flat-square)
-![Agentic Self-Correction](https://img.shields.io/badge/Agentic%20Self--Correction-FF6F00?style=flat-square)
-![MCP Protocol](https://img.shields.io/badge/MCP%20Protocol-FF6F00?style=flat-square)
-![LLM Evaluation](https://img.shields.io/badge/LLM%20Evaluation-FF6F00?style=flat-square)
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-FF6F00?style=flat-square)
-![LangChain](https://img.shields.io/badge/LangChain%20(learning)-FF6F00?style=flat-square)
-
-### 🧩 Models & APIs
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFCA28?style=flat-square&logo=huggingface&logoColor=black)
-![Mistral](https://img.shields.io/badge/Mistral-5865F2?style=flat-square)
-![DistilBERT](https://img.shields.io/badge/DistilBERT-5865F2?style=flat-square)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![OpenAI API](https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white)
-![Anthropic Claude API](https://img.shields.io/badge/Anthropic%20Claude%20API-CC785C?style=flat-square)
-![Groq](https://img.shields.io/badge/Groq-000000?style=flat-square)
-![Ollama](https://img.shields.io/badge/Ollama-grey?style=flat-square)
-
-### ⚙️ Infra & Deploy
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![REST / OAuth2](https://img.shields.io/badge/REST%20%2F%20OAuth2-grey?style=flat-square)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-### 📊 ML & Data
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square)
-![Text Classification](https://img.shields.io/badge/Text%20Classification-grey?style=flat-square)
-![Model Benchmarking](https://img.shields.io/badge/Model%20Benchmarking-grey?style=flat-square)
-
-### 🖥️ Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![MERN Stack](https://img.shields.io/badge/MERN%20Stack-20232A?style=flat-square)
-
----
-
-## 🚀 Featured Projects
-
-### 🫀 [Hearth — Emotionally Intelligent AI Companion](https://github.com/Mrun25/Hearth_Emotional-Companion)
-`Python` `HuggingFace PEFT/TRL` `DistilBERT` `Mistral API`
-
-> Most complex build. Agentic self-correction loop with real ML debugging at the training data level.
-
-- Diagnosed & fixed a **training data contamination bug** (Instagram/Reddit fragments in Mistral-7B outputs) — built custom normalization pipeline unifying 4 raw formats into clean train/val/test schema
-- **Dual-track safety layer**: fine-tuned DistilBERT (<50ms inference) running parallel with deterministic keyword filter — safety never single-model-dependent
-- **Agentic self-correction loop** — Critic LLM scores every response against 6 criteria, triggers constrained rewrite on failure. Automated eval+correction per inference
-
----
-
-### 🧠 [Mneme — AI Agent Memory Layer](https://github.com/Mrun25/Mneme) &nbsp; 🏆 Monad Blitz Pune 2026 — Overall Winner
-`Python` `Neo4j` `Monad Blockchain` `MCP Protocol`
-
-> Sovereign memory layer for AI agents. Shipped a working demo in 24 hours under competition conditions.
-
-- **Persistent memory** via Neo4j knowledge graph + on-chain attestation, tiered retrieval: semantic similarity → entity graph traversal → temporal recency
-- **Full MCP server (6 tools)** — any LLM agent reads/writes structured memory cross-session, zero prompt bloat
-
----
-
-### 📊 [GiSTo — GST ITC Risk Intelligence Platform](https://github.com/Mrun25/GiSTo)
-`FastAPI` `PostgreSQL` `React` `Docker Compose` `Mistral` `Telegram Bot`
-
-> Full-stack fintech platform. One-command startup, real GST integration is a single config swap.
-
-- FastAPI + PostgreSQL/Alembic + React CA dashboard + Telegram bot with automated supplier risk scoring
-- Built against mock-GSP adapter — deliberate decoupling of integration boundary from core business logic
-
----
-
-### 🗼 [WatchTower — Passive AI-Agent Supervision Extension](https://github.com/Mrun25/WatchTower)
-`Node.js` `VS Code Extension API` `Mistral API`
-
-> LLM is advisory only — deterministic architecture ensures it cannot touch the map or codebase.
-
-- **Deterministic JSON codebase map** (JS/Python parser registry, language-agnostic matcher)
-- **43-check automated test suite** (parsing, cross-language matching, incremental updates) — zero-dependency, validated pre-build
-
----
-
-### 📬 [Niche-Inbox — Live News Digest Pipeline](https://github.com/Mrun25/Niche-Inbox) &nbsp; 🟢 Live on AWS EC2
-`Python` `Flask` `APScheduler` `NewsAPI` `Mistral API` `Gmail OAuth2`
-
-- Production pipeline on AWS EC2: NewsAPI → Mistral summarisation → per-recipient Gmail OAuth2 delivery on cron
-- No stored SMTP credentials. Full server ops cycle managed solo
-
----
-
-## 💼 Experience
-
-### 🏢 SDE Intern — Bluestock Fintech &nbsp; `Feb 2026 – Apr 2026 · Remote`
-
-- Shipped production blog platform end-to-end (auth, CMS, SSG/ISR, DB, CI/CD) on MERN stack in distributed Agile team
-- Operated across every deployment layer; full local → staging → live pipeline
-
----
-
-## 🏆 Achievements & Certifications
-
-| | |
-|---|---|
-| 🥇 | **Monad Blitz Pune 2026 — Overall Winner** |
-| 🏛 | **I-HACK 2025 — IIT Bombay** |
-| ⚡ | **IEEE Tech for Good 2026** |
-| ✅ | Google Responsible AI Certification |
-| ✅ | Google Gen AI Study Jam |
-| ✅ | Microsoft Data Analytics 101 |
-| ✅ | Deloitte Virtual Internship (2025) |
-
----
-
-## 📫 Let's Connect
-
-<p>
-  <a href="mailto:mrunmayeesdaware25@gmail.com"><img src="https://img.shields.io/badge/Email-mrunmayeesdaware25%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <br/><br/>
-  <a href="https://linkedin.com/in/mrunmayee-daware-b270362a0"><img src="https://img.shields.io/badge/LinkedIn-mrunmayee--daware-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <br/><br/>
-  <a href="https://github.com/Mrun25"><img src="https://img.shields.io/badge/GitHub-Mrun25-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+Visitor counter
+<p align="center">
+  <img src="https://count.getloli.com/@Mrun25?name=Mrun25&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="moe visitor counter" />
 </p>
